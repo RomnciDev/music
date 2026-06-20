@@ -9,6 +9,7 @@ ydl_opts = {
     'noplaylist': True,
     'quiet': True,
     'default_search': 'ytsearch1:',
+    'cookiefile':'cookies.txt'
 }
 
 @app.route("/stream", methods=["GET"])
